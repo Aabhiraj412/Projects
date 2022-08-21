@@ -25,6 +25,7 @@ main = Tk()
 main.title('The Digital Clock In Python')
 
 def clock():
+
     tick = strftime('%H:%M:%S %p')
 
     clock_label .config(text =tick)
