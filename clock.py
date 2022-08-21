@@ -36,6 +36,8 @@ clock_label = Label(main, font=('Special Elite', 80), background='black', foregr
 
 clock_label.pack(anchor='center')
 
+print("Hello Sir")
+
 clock()
 
 mainloop()
