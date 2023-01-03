@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pament Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cont">
+        <form action="">
+            <h1 class="heading">Pament Form</h1>
+            <hr>
+            <h2 class="head">Contact Details</h2>
+            <p> 
+                <p class="border">
+                    Name:
+                </p> 
+                <input type="text" name="name" id="name" placeholder="Name" required>
+            </p>
+                <fieldset>
+                    <legend>Gender</legend>
+                    <p class="nb">
+                        Male <input type="radio" name="gender" id="gender" required>
+                        Female <input type="radio" name="gender" id="gender" required>
+            
+                    </p>
+                </fieldset>
+            <p> 
+                <p class="border">
+                    Address:
+                </p> 
+                <textarea name="address" id="address" placeholder="Address" cols="100" rows="8" required>
+
+                </textarea>
+            </p>
+            <p>
+                <p class="border">
+                    Email:
+                </p> 
+                <input type="email" name="email" id="email" placeholder="abcd@efg.com" required>
+            </p>
+            <p> 
+                <p class="border">
+                    Pincode:
+                </p> 
+                <input type="number" name="pincode" id="pincode" placeholder="123456" required>
+            </p>
+
+            <hr>
+
+            <h2 class="head">Pament Information</h2>
+            <p>  
+                <p class="border">
+                    Card Type:
+                </p> 
+                <select name="card" id="card" required>
+                    <option value="">--Select your Card Type--</option>
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">Mastercard</option>
+                    <option value="rupay">Rupay</option>
+
+                </select>
+            </p>
+            <p> 
+                <p class="border">
+                    Card Number:
+                </p> 
+                <input type="number" name="card_number" id="card_number" placeholder="123456789" required>
+            </p>
+            <p>
+                <p class="border"></p>Expiry Date: <input type="date" name="expiry" id="expiry" required>
+            </p>
+            <p> 
+                <p class="border">
+                    CVV:
+                </p> 
+                <input type="password" name="cvv" id="cvv" placeholder="***" required>
+            </p>
+
+            <input class="submit" type="submit" value="Pay Now">
+
+
+        </form>
+    </div>
+</body>
+</html>
